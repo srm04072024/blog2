@@ -5,7 +5,7 @@ import Comments from "../components/Comments";
 function SinglePost() {
   return (
     <div className=" container flex flex-col mx-auto">
-      <div className="bg-gray-100 py-4 px-8 flex items-center justify-between">
+      <div className="bg-[#F5F4FF] py-4 px-8 flex items-center justify-between">
         <div className="">
           <h1 className="text-md md:text-xl lg:text-2xl font-bold text-gray-800 mb-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
@@ -33,7 +33,7 @@ function SinglePost() {
           </div>
         </div>
       </div>
-      <div className=" bg-white py-8 ">
+      <div className=" py-8 ">
         <div className="container mx-auto px-4 flex flex-col md:flex-row">
           <div className="w-full md:w-3/4 px-4">
             <img
@@ -109,7 +109,7 @@ function SinglePost() {
               </svg>
               <span className=" tracking-widest">Web Design</span>
             </div>
-            <div className="bg-gray-100 p-4">
+            <div className="bg-[#F5F4FF] p-4">
               <h2 className="text-xl font-bold text-gray-800 mb-4">
                 Recent Posts
               </h2>
@@ -136,7 +136,7 @@ function SinglePost() {
                 </li>
               </ul>
             </div>
-            <div className="bg-gray-100 p-4 mt-8">
+            <div className="bg-[#F5F4FF] p-4 mt-8">
               <h2 className="text-xl font-bold text-gray-800 mb-4">
                 Categories
               </h2>
