@@ -1,9 +1,11 @@
-import PostlistItem from "../components/PostlistItem";
+// import PostlistItem from "../components/PostlistItem";
+import Posts from "../components/Posts";
 import SideMenu from "../components/SideMenu";
 import { useState } from "react";
 
 function PostList() {
   const [open, setOpen] = useState(false);
+
   return (
     <div className="">
       <h1 className="mb-8 text-2xl">Development Blog</h1>
@@ -11,16 +13,10 @@ function PostList() {
         onClick={() => setOpen((prev) => !prev)}
         className="bg-blue-800 text-sm text-white px-4 py-2 rounded-2xl mb-4 md:hidden"
       >
-        {" "}
         {open ? "Close" : "Filter or Search"}
       </button>
       <div className="flex flex-col-reverse gap-8 md:flex-row justify-between">
-        <div className="">
-          <PostlistItem />
-          <PostlistItem />
-          <PostlistItem />
-          <PostlistItem />
-        </div>
+        <Posts />
         <div className={`${open ? "block" : "hidden"} md:block`}>
           <SideMenu />
         </div>

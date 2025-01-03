@@ -1,6 +1,6 @@
 import PostCard from "./PostCard";
 
-function Postlist() {
+function PostCards() {
   return (
     <div className="p-auto m-auto flex h-4/5 flex-col justify-center">
       <div className=" flex overflow-scroll py-10 overflow-y-hidden">
@@ -18,4 +18,4 @@ function Postlist() {
   );
 }
 
-export default Postlist;
+export default PostCards;

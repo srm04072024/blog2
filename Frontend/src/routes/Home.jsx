@@ -1,5 +1,5 @@
 import MainCategories from "../components/MainCategories";
-import Postlist from "../components/Postlist";
+import PostCards from "../components/PostScroll";
 import { Link } from "react-router-dom";
 import FeaturedPost from "../components/FeaturedPost";
 
@@ -63,7 +63,7 @@ function Home() {
         <h1 className=" text-xl text-gray-500 uppercase text-center">
           Recent Posts
         </h1>
-        <Postlist />
+        <PostCards />
       </div>
     </div>
   );
